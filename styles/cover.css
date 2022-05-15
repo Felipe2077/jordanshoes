@@ -1,0 +1,28 @@
+.cover {
+  background-image: url(../images/Air-Jordan-cover.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 378px;
+}
+
+.cover-mask {
+  background-color: #18181899;
+  height: inherit;
+  width: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.cover-text {
+  color: aliceblue;
+  max-width: 40ch;
+  padding: 60px;
+  line-height: 35px;
+}
+
+.cover-text p {
+  font-size: 18px;
+}
